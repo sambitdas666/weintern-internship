@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>WeIntern | Full Stack Internship Challenge</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-flex">
+      <div class="logo-area">
+        <span class="logo-icon"><i class="fas fa-rocket"></i></span>
+        <span class="logo-text">WeIntern</span>
+      </div>
+      <nav class="main-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#internships">Internships</a></li>
+          <li><a href="#cta">Apply</a></li>
+        </ul>
+      </nav>
+      <div class="mobile-menu-toggle" id="mobileToggle" aria-label="Menu">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <section id="hero" class="hero-section">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="hero-badge">🚀 Build from Day 1</div>
+          <h1 class="hero-title">
+            Launch your<span class="highlight-text"> tech career</span><br>with WeIntern
+          </h1>
+          <p class="hero-description">
+            Real projects, real mentorship, and a community that helps you grow. 
+            Join the Full Stack Web Dev track and create production-ready web apps.
+          </p>
+          <div class="hero-buttons">
+            <a href="#cta" class="btn btn-primary cta-btn">Apply Now <i class="fas fa-arrow-right"></i></a>
+            <a href="#internships" class="btn btn-outline">Explore tracks <i class="fas fa-chevron-down"></i></a>
+          </div>
+          <div class="hero-stats">
+            <span><i class="fas fa-users"></i> 1200+ interns</span>
+            <span><i class="fas fa-code"></i> 6 live projects</span>
+            <span><i class="fas fa-calendar-check"></i> 8 weeks intensive</span>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="code-card">
+            <div class="code-line"><span class="tag">&lt;WeIntern&gt;</span></div>
+            <div class="code-line">  fullStack() → <span class="accent">DreamJob🚀</span></div>
+            <div class="code-line"><span class="tag">&lt;/WeIntern&gt;</span></div>
+          </div>
+        </div>
+      </div>
+      <!-- decorative wave -->
+      <div class="hero-wave"></div>
+    </section>
+
+    <section id="about" class="about-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Who we are</span>
+          <h2>Where ambition meets <span class="blue-accent">opportunity</span></h2>
+          <p class="section-subhead">WeIntern bridges the gap between academic learning and real-world engineering.</p>
+        </div>
+
+        <div class="mission-vision-grid">
+          <div class="mission-card">
+            <i class="fas fa-bullseye"></i>
+            <h3>Our Mission</h3>
+            <p>Empower 1M students with hands-on industry experience by 2030. We turn interns into job-ready developers.</p>
+          </div>
+          <div class="vision-card">
+            <i class="fas fa-eye"></i>
+            <h3>Our Vision</h3>
+            <p>Create a world where every aspiring techie gets a fair start — learning by building, not just watching.</p>
+          </div>
+        </div>
+
+        <div class="value-cards">
+          <div class="value-item">
+            <div class="value-icon"><i class="fas fa-laptop-code"></i></div>
+            <h4>Project-based sprints</h4>
+            <p>Build 3+ full-stack apps from scratch. Portfolio-ready work, not dummy tasks.</p>
+          </div>
+          <div class="value-item">
+            <div class="value-icon"><i class="fas fa-chalkboard-user"></i></div>
+            <h4>1:1 mentor sessions</h4>
+            <p>Weekly code reviews & career guidance from senior engineers at top tech firms.</p>
+          </div>
+          <div class="value-item">
+            <div class="value-icon"><i class="fas fa-trophy"></i></div>
+            <h4>Certification + stipend</h4>
+            <p>Earn a verifiable certificate and performance-based stipend on completion.</p>
+          </div>
+        </div>
+
+        <div class="weintern-offer-blurb">
+          <i class="fas fa-gem"></i> What WeIntern offers: <strong>Live workshops · Real API integrations · Peer code reviews · Mock interviews</strong>
+        </div>
+      </div>
+    </section>
+
+    <section id="internships" class="internships-section">
+      <div class="container">
+        <div class="section-header dark-badge">
+          <span class="section-tag light-tag">Programs</span>
+          <h2>Launch your future with <span class="gold-accent">specialized tracks</span></h2>
+          <p>Choose the domain that excites you — each track includes a real-world capstone project.</p>
+        </div>
+
+        <div class="internship-grid">
+    
+          <div class="intern-card">
+            <div class="card-badge ai-badge">🔥 High demand</div>
+            <div class="intern-icon"><i class="fas fa-microchip"></i></div>
+            <h3>Artificial Intelligence</h3>
+            <p class="track-desc">Build LLM-powered apps, computer vision models & AI agents with Python.</p>
+            <ul class="track-details">
+              <li><i class="fas fa-clock"></i> Duration: 10 weeks</li>
+              <li><i class="fas fa-graduation-cap"></i> Eligibility: Basic Python, curiosity for ML</li>
+              <li><i class="fas fa-calendar-alt"></i> Start: June 2, 2025</li>
+            </ul>
+            <a href="#cta" class="btn-track-apply">Apply Now →</a>
+          </div>
+     
+          <div class="intern-card">
+            <div class="card-badge data-badge">📊 Industry ready</div>
+            <div class="intern-icon"><i class="fas fa-chart-line"></i></div>
+            <h3>Data Science & Analytics</h3>
+            <p class="track-desc">Master SQL, Pandas, Tableau, and predictive modeling with real datasets.</p>
+            <ul class="track-details">
+              <li><i class="fas fa-clock"></i> Duration: 8 weeks</li>
+              <li><i class="fas fa-graduation-cap"></i> Eligibility: Statistics basics + Excel</li>
+              <li><i class="fas fa-calendar-alt"></i> Start: June 16, 2025</li>
+            </ul>
+            <a href="#cta" class="btn-track-apply">Apply Now →</a>
+          </div>
+ 
+          <div class="intern-card featured-card">
+            <div class="card-badge web-badge">⭐ Full Stack Focus</div>
+            <div class="intern-icon"><i class="fab fa-js"></i><i class="fab fa-react"></i></div>
+            <h3>Full Stack Web Dev</h3>
+            <p class="track-desc">HTML/CSS, JavaScript, React, Node.js — build responsive, interactive web apps.</p>
+            <ul class="track-details">
+              <li><i class="fas fa-clock"></i> Duration: 12 weeks (intensive)</li>
+              <li><i class="fas fa-graduation-cap"></i> Eligibility: Problem-solving mindset, basic web curious</li>
+              <li><i class="fas fa-calendar-alt"></i> Start: Immediate onboarding</li>
+            </ul>
+            <a href="#cta" class="btn-track-apply primary-apply">Apply Now →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="cta" class="cta-section">
+      <div class="container cta-container">
+        <div class="cta-card-wrapper">
+          <h2>Start your journey <span class="gold-text">today</span></h2>
+          <p>Limited seats for the Full Stack Web Dev cohort. Don’t miss your chance to build a standout portfolio.</p>
+          <div class="cta-actions">
+            <a href="#" id="applyNowMainBtn" class="btn btn-cta-large">Apply Now <i class="fas fa-paper-plane"></i></a>
+            <a href="#hero" class="btn btn-cta-secondary">Learn more <i class="fas fa-chevron-circle-down"></i></a>
+          </div>
+          <p class="cta-note"><i class="fas fa-laptop"></i> No upfront payment · Early applicants get free resume review</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <div class="footer-logo"><i class="fas fa-rocket"></i> WeIntern</div>
+        <p>Day 1 Intern Onboarding Guide: Clone the repo, join Slack, meet your mentor. Real code on day zero.</p>
+        <div class="social-links">
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+      <div class="footer-links">
+        <h4>Quick access</h4>
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#internships">Internships</a></li>
+          <li><a href="#cta">Apply Now</a></li>
+        </ul>
+      </div>
+      <div class="footer-onboarding">
+        <h4>📘 Intern onboarding kit</h4>
+        <ul>
+          <li><i class="fas fa-check-circle"></i> GitHub starter pack</li>
+          <li><i class="fas fa-check-circle"></i> Environment setup guide</li>
+          <li><i class="fas fa-check-circle"></i> Week-1 roadmap</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>© 2025 WeIntern · All Rights Reserved · weintern.in</p>
+        <p class="footer-small">Full Stack Web Dev Intern challenge — responsive webpage with modern HTML/CSS/JS</p>
+      </div>
+    </div>
+  </footer>
+
+  <div class="back-to-top" id="backToTopBtn" aria-label="Back to top">
+    <i class="fas fa-arrow-up"></i>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
