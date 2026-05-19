@@ -46,21 +46,8 @@ weintern-internship/
 2. Open `index.html` in any modern browser
 3. Or use Live Server in VS Code for best experience
 
-## 📸 Screenshots
-| Desktop View | Mobile View |
-|--------------|--------------|
-| *(Add your desktop screenshot here)* | *(Add your mobile screenshot here)* |
-
-## ✅ Checklist
-- [x] All 4 sections (Hero, About, Internship, CTA)
-- [x] Responsive on desktop & mobile
-- [x] Semantic HTML5 tags
-- [x] Brand colors applied
-- [x] Interactive JavaScript features
-- [x] Google Fonts integrated
-
 ---
 
-**Submitted by:** [Your Name]  
+**Submitted by: sambit kumar das 
 **Date:** May 2026  
 **Track:** Full Stack Web Dev Intern
