@@ -48,6 +48,6 @@ weintern-internship/
 
 ---
 
-**Submitted by: sambit kumar das 
+**Submitted by: sambit kumar das
 **Date:** May 2026  
 **Track:** Full Stack Web Dev Intern
